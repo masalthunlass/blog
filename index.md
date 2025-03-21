@@ -1,4 +1,4 @@
 ---
 layout: home
-list_title: "Articles": 
+list_title: "Articles"
 ---
