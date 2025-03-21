@@ -1,6 +1,4 @@
 ---
 title: blog
----
----
 layout: home
 ---
