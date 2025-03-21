@@ -2,7 +2,5 @@
 title: blog
 ---
 ---
-
 layout: home
-
 ---
