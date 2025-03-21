@@ -1,7 +1,7 @@
 ---
 title: "Quality view : Matérialiser la qualité du code d’un logiciel pour les non-techniques "
 date: 2024-05-25
-date_format: "%-d %m %Y" 
+date_format: "%d %m %Y" 
 ---
 
 Lors de la conférence NewCrafts qui a eu lieu le 16 et 17 mai 2024 à Paris, Philippe Bourgau (agile & craft coach) et Mirna Mahloud (développeuse & coach) ont animé un atelier sur la méthode de « Quality view ».  
