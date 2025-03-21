@@ -1,7 +1,7 @@
 theme: minima
 
-author:
-  name: Mathilde Salthun-Lassalle
-  email: mathilde.salthun-lassalle@arolla.fr
+#author:
+  #name: Mathilde Salthun-Lassalle
+  #email: mathilde.salthun-lassalle@arolla.fr
 
-date_format: "DD-MM-YYYY"
+date_format: "%d-%m-%Y"
