@@ -1,4 +1,4 @@
---
+
 <footer class="site-footer h-card">
     <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
@@ -17,9 +17,11 @@
                 </ul>
                 {%- endif %}
             </div>
+               {%- if site.description %}
             <div class="footer-col">
                 <p>{{ site.description | escape }}</p>
             </div>
+             {%- endif %}
         </div>
 
 
