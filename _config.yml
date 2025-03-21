@@ -1,8 +1,8 @@
-theme: minima
 rss:
   feed: false
 date_format: "%d-%m-%Y"
 lang: "fr"
+theme: minima
 
 
 
