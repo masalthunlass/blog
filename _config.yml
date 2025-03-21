@@ -3,3 +3,5 @@ theme: minima
 author:
   name: Mathilde Salthun-Lassalle
   email: mathilde.salthun-lassalle@arolla.fr
+
+date_format: "DD-MM-YYYY"
