@@ -5,7 +5,7 @@ date: 2024-05-25
 
 Lors de la conférence NewCrafts qui a eu lieu le 16 et 17 mai 2024 à Paris, Philippe Bourgau (agile & craft coach) et Mirna Mahloud (développeuse & coach) ont animé un atelier sur la méthode de « Quality view ».  
 
-Cet article donne un aperçu de la méthodologie « quality view » telle que je l’ai appréhendée. Je recommande la lecture des articles de Philippe Bourgau (https://philippe.bourgau.net/a-quality-view-workshop-to-discuss-technical-excellence/)  et de Colin Breck (https://blog.colinbreck.com/using-quality-views-to-communicate-software-quality-and-evolution/) pour des informations plus précises.  
+Cet article donne un aperçu de la méthodologie « quality view » telle que je l’ai appréhendée. Je recommande la lecture des articles de Philippe Bourgau (https://philippe.bourgau.net/a-quality_view-workshop-to-discuss-technical-excellence/)  et de Colin Breck (https://blog.colinbreck.com/using-quality_views-to-communicate-software-quality-and-evolution/) pour des informations plus précises.  
 
  
 
@@ -37,15 +37,13 @@ En premier lieu, il est nécessaire d’avoir une vue réaliste des modules du l
 
 Chaque membre de l’équipe commence par dessiner de son côté sa vision des composants du logiciel en fonction de ses connaissances (ce sur quoi il a travaillé, la documentation dont il dispose, ce qu’il a compris…). Dans un second temps, on forme des paires de participants pour mettre en commun leurs visions et créer un nouveau schéma du système. Enfin toute l’équipe se rassemble pour co-dessiner la vue finale du système. 
 
- 
 
-Légende : Un schéma pour une personne seule ou une paire. Dans le schéma final, il ne doit exister que des carrés représentant des modules et leurs liens. 
+![step 1](../_images/quality_view/step-1.png)
 
-Une image contenant diagramme, croquis, conception, Rectangle
+_Légende : Un schéma pour une personne seule ou une paire. Dans le schéma final, il ne doit exister que des carrés représentant des modules et leurs liens._ 
 
-Description générée automatiquement 
-
-Légende : un exemple du formalisme d’un module de code à l’étape 1 sur le schéma final de groupe. Il n’a aucune couleur. Il comporte plusieurs zones dans les coins supérieurs ou inférieurs qui seront complétées dans les étapes suivantes. Les modules sont nommés et reliés entre eux selon leurs dépendances.  
+![step 1 module](../_images/quality_view/step-1_module.png)
+_Légende : un exemple du formalisme d’un module de code à l’étape 1 sur le schéma final de groupe. Il n’a aucune couleur. Il comporte plusieurs zones dans les coins supérieurs ou inférieurs qui seront complétées dans les étapes suivantes. Les modules sont nommés et reliés entre eux selon leurs dépendances._  
 
  
 
@@ -61,9 +59,9 @@ Légende : un exemple du formalisme d’un module de code à l’étape 1 sur 
 
 Chaque bloc représentant un module est proportionné en fonction de sa taille, ici la mesure prise est le nombre de lignes de code. Cette étape n’a pas été réalisée lors de l’atelier, il nous a été donné un schéma déjà proportionné. Je suppose que l’intérêt réside dans le fait que plus un module comporte de lignes de code, plus il peut y résider de bugs, ou simplement de complexité, qui vont   allonger le temps de sa maitrise par les développeur-se-s.  
 
- 
 
-Légende : Un schéma de groupe (simplifié) de l’étape 2 
+![step 2](../_images/quality_view/step-2.png)
+_Légende : Un schéma de groupe (simplifié) de l’étape 2_ 
 
  
 
@@ -77,19 +75,16 @@ Seuls les développeur-se-s participent à cette étape.
 
 D’abord chacun de leur côté, puis en paire, ils établissent un schéma classant chaque module en fonction de leur degré de qualité selon leur estimation. Les schémas vont différer en fonction de leur connaissance du module et de leurs critères personnels de qualité. La réconciliation des schémas se fera en discutant leurs différentes perceptions. Nous avons choisi dans notre équipe de nuancer le score de qualité du code par la qualité perçue par Penelope, notre PM, chargée des tests exploratoires. Cela n’était pas, néanmoins, une consigne donnée. 
 
- 
 
-Une image contenant texte, diagramme, capture d’écran, Police
+![step 3](../_images/quality_view/step-3.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma pour une personne seule ou une paire 
+_Légende : Un schéma pour une personne seule ou une paire_ 
 
 Une échelle de nuances de qualité de code est donnée :  allant du vert (très bon) puis jaune puis orange vers le rouge (très mauvais). L’équipe des développeur-se-s au complet complète ensuite le squelette de l’application en coloriant chaque bloc selon sa qualité. 
 
- 
 
-Légende : Un schéma de groupe (simplifié) de l’étape 3 
+![step 3 final](../_images/quality_view/step-3-final.png)
+_Légende : Un schéma de groupe (simplifié) de l’étape 3_ 
 
  
 
@@ -103,11 +98,9 @@ Seuls les développeur-se-s participent à cette étape.
 
 L’objectif de cette étape est d’indiquer dans le dessin pour chaque module la qualité de ses tests par une échelle colorée dans une case en bas à gauche. (vert très bon à rouge très mauvais). On peut éventuellement pour cela s’appuyer sur des métriques (ex le taux de couverture) mais il est important de discuter de ses critères. Cette évaluation est également d’abord à réaliser seul-e puis en paire puis avec tout le groupe. 
 
-Une image contenant texte, diagramme, capture d’écran, conception
+![step 4](../_images/quality_view/step-4.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma de groupe (simplifié) de l’étape 4 
+_Légende : Un schéma de groupe (simplifié) de l’étape 4_ 
 
  
 
@@ -143,19 +136,15 @@ Chaque développeur-se y dépose sa marque (par exemple son initiale) dans la zo
 
 Cela donne un histogramme de compétences comme ceci : 
 
-Une image contenant texte, diagramme, ligne, Police
+![step 5 histogramme](../_images/quality_view/step-5-histo.png)
 
-Description générée automatiquement 
+_Légende : Un histogramme de compétence_ 
 
-Légende : Un histogramme de compétence 
 
- 
 
-Une image contenant diagramme, texte, Plan, conception
+![step 5](../_images/quality_view/step-5.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma simplifié de l’étape 5 
+_Légende : Un schéma simplifié de l’étape 5_ 
 
  
 
@@ -167,13 +156,10 @@ Légende : Un schéma simplifié de l’étape 5
 
 Cette étape vise à mettre en évidence les modules ayant été impactés par des bugs. Une case au coin supérieur droit de chaque module est prévue pour contenir un point par bug. J’y vois un moyen de statuer sur la stabilité d’un module. Plus il a connu de bugs plus il me parait fragile. 
 
- 
 
-Une image contenant diagramme, texte
+![step 6](../_images/quality_view/step-6.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma simplifié de l’étape 6 
+_Légende : Un schéma simplifié de l’étape 6_ 
 
  
 
@@ -183,11 +169,9 @@ Légende : Un schéma simplifié de l’étape 6
 
 Les fonctionnels de l’équipe jouent un rôle central à cette étape. Ils présentent les nouvelles fonctionnalités attendues pondérées par un score de valeur et par ordre de priorité. La fonctionnalité A est peut-être hautement indispensable, elle aura la note de 3 diamants, la B un peu moins, on la notera 2 diamants et la C viendra ensuite avec une moindre attente de la part du métier, évaluée à 1 diamant.  L’équipe technique déduit de la description du besoin les modules prochainement impactées et reporte le score en nombre de diamants pour chacun dans le coin inférieur droit. 
 
-Une image contenant diagramme, texte, Plan, capture d’écran
+![step 7](../_images/quality_view/step-7.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma simplifié de l’étape 7, ici la valeur métier est exprimée en nombre de losanges bleus. Plus il y a de losanges plus elle est importante. 
+_Légende : Un schéma simplifié de l’étape 7, ici la valeur métier est exprimée en nombre de losanges bleus. Plus il y a de losanges plus elle est importante._ 
 
  
 
@@ -197,11 +181,9 @@ A ce stage, l’équipe a sous les yeux une cartographie du système actuel. Il 
 
 Chaque membre dispose de 3 votes sous la forme de points à placer dans une case en bas du module. Personnellement je porte une attention plus grande aux points du code qui vont avoir à être modifiés pour ajouter de la valeur métier et à ceux qui sont particulièrement bogués mais tout autre critère, comme l’ajout de tests ou le besoin de monter en compétences, est bon à considérer.  
 
-Une image contenant diagramme, texte, Plan, capture d’écran
+![step 8](../_images/quality_view/step-8.png)
 
-Description générée automatiquement 
-
-Légende : Un schéma simplifié de l’étape 8, les modules A et E ont été choisis par l’équipe comme points chauds 
+_Légende : Un schéma simplifié de l’étape 8, les modules A et E ont été choisis par l’équipe comme points chauds_ 
 
  
 
