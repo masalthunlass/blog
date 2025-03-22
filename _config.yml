@@ -1,9 +1,5 @@
 theme: minima
 rss:
   feed: false
-date_format: "%d-%m-%Y"
-lang: "fr"
-
-
-
-
+date_format: "%d/%m/%Y"
+lang: fr
