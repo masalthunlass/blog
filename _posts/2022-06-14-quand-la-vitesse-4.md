@@ -1,0 +1,39 @@
+---
+title: "Quand la vitesse génère de la frustration – Épisode 4"
+date: 2022-06-14
+author: ["Mathilde Salthun-Lassalle","Dora Bartaguiz"]
+---
+_Nous vous proposons une série d’articles pour traiter les problématiques liées au rythme de production d’un logiciel, les frustrations engendrées et les solutions qui peuvent être apportées pour améliorer la vie de l’équipe._
+
+_Dans le [premier épisode]({{'/2022/03/30/quand-la-vitesse-1.html'| relative_url}}), nous avons abordé le besoin pressant de vitesse. Puis nous avons évoqué le sujet de la dette technique engendrée par la précipitation au détriment de la qualité au [deuxième épisode]({{'/2022/04/29/quand-la-vitesse-2.html'| relative_url}}). Enfin, lors du [troisième épisode]({{'/2022/05/13/quand-la-vitesse-3.html'| relative_url}}), nous abordons les conséquences des choix organisationnel dans l’équipe en termes de cohésion et de coordination._
+
+_Dans ce quatrième épisode, nous mettons le focus sur le manque de vision et le déploiement continu._
+# Quand on ne sait pas où on va, la vitesse du déplacement ne compte plus (Cees Nooteboom)
+
+Un nouveau projet a souvent vocation à changer la vie de ses futurs utilisateurs en leur apportant l’outil qui leur manque ou la nouveauté qui n’était jusqu’alors qu’un concept. En amont de toute implémentation, les interactions que les utilisateurs auront avec les interfaces du logiciel ne sont que des suppositions. L’incertitude est toujours présente en ce qui concerne son contenu final. Lorsqu’à la nécessité d’exploration du besoin s’ajoute un sentiment d’urgence, il est aisé de partir dans une mauvaise direction. Dans ce contexte, l’absence de priorités claires a de sérieuses conséquences. Afin de contenter un client en donnant le sentiment d’un rythme d’avancée rapide, la tentation est grande de ne livrer que ce qui est le plus facile sans s’intéresser à ce que cela fait. C’est justement ce qui a mis en péril Sentinel, le projet visant à doter le FBI d’un système de gestion des cas. Un audit (relaté par Jerome Israel in Computer, June 2012, pp. 73-80, vol. 45) a montré que la pression de montrer des résultats avait poussé à constamment reporter la prise en charge des risques, causé un retard de livraison et très sérieusement menacé la réussite du projet.
+
+Robert C. Martin (Uncle Bob), auteur de Clean Code, situe les problèmes à résoudre sur [les axes urgent et important](https://www.youtube.com/watch?v=sn0aFEMVTpA&t=4233s). Alors que la demande des clients est urgente en raison de sa valeur ajoutée à court terme, la bonne architecture du code est importante à cause de sa valeur ajoutée sur le long terme. Généralement, l’équipe s’entend aisément sur le fait qu’il n’est pas nécessaire d’investir du temps dans des considérations non urgentes et non importantes tandis que les tâches urgentes et importantes doivent être la priorité. Les deux autres catégories (urgent et non-important, non-urgent et important) font davantage l’objet de débats. Pour lui, l’équipe technique (les développeurs et architectes) a le devoir d’entrer en négociation pour prioriser ce qui est important.
+
+Trop souvent la production d’un logiciel est envisagée comme la production d’un bien matériel. Pourtant, il n’est pas produit en série, il s’agit toujours d’une première expérience. Construire un logiciel nécessite d’approfondir les connaissances en amont pour mieux gérer les incertitudes, expliciter l’implicite et identifier les anomalies de conception. Alistair Cockburn, un des créateurs du manifeste Agile, plaide pour qu’il ait lieu au plus tôt du projet, au moment où un changement demande le moins d’effort, afin de mieux gérer les risques et les surprises. Dans “fifty quick ideas to improve your user stories”, Gojko Adzic et David Evans, conseillent d’aborder une description de fonctionnalité comme une expérience de survie. Dans cette optique, l’objectif du développement est d’obtenir des résultats pour vérifier les suppositions faites.
+# Rien ne sert d’aller vite, il faut livrer à point
+
+Dans beaucoup d’entreprises, on pense que la phase de développement est la plus impactante pour un projet. On pense donc à optimiser cette phase en essayant plusieurs solutions : le recrutement de meilleurs développeurs, la formation des développeurs présents ou encore l’externalisation du développement. La phase de développement est effectivement importante dans un projet puisque son artefact (appelé aussi livrable ou binaire ou release) est l’outil attendu pour améliorer le quotidien des utilisateurs. Mais la vie d’un projet ne se résume pas à cette phase : on oublie souvent que tant que l’artefact produit n’est pas livré, aucune valeur n’est ajoutée. En effet, on peut voir chez plusieurs de nos clients une usine d’intégration continue bien établie, avec les étapes de compilation, de lancement de tests et la génération de l’artefact, mais une étape de déploiement souvent manuelle. Les raisons de ce fait sont diverses. La première raison peut être l’externalisation de l’équipe production. Dans ce cas, les développeurs doivent préparer le package, le copier dans un répertoire et c’est l’équipe infra qui se charge de le mettre dans un environnement de production après avoir passé sa check-list. La deuxième raison peut s’expliquer par un manque de connaissances de l’équipe sur la façon la plus optimale pour automatiser le déploiement. Enfin la troisième raison peut être la non-priorisation de la tâche de la part du métier ne voyant pas l’apport de l’automatisation.
+
+Selon les auteurs de [“Accelerate”](https://www.amazon.fr/Accelerate-Building-Performing-Technology-Organizations/dp/1942788339), il y a une corrélation entre la bonne performance d’une organisation et une bonne performance de livraison. Les entreprises les plus performantes sont celles qui se distinguent justement par leur capacité à livrer rapidement. Les indicateurs d’un bon delivery (delivery = livrer de la valeur ajoutée en continu) sont au nombre de quatre, deux indicateurs de vitesse et deux de stabilité. Ils nous permettent d’identifier où nous en sommes pour définir la trajectoire à suivre pour s’améliorer.
+
+* **Pour la stabilité :**
+  * Mean time to repair : mesure la performance de réparation d’un défaut (bug, problème de déploiement …). Une bonne performance implique une valeur inférieure à une heure pour cet indicateur.
+  * Change failure rate : cet indicateur correspond au taux des bugs apportés à l’application à chaque livraison. On mesure ainsi la qualité du code livré. Une bonne performance implique une valeur inférieure à 15%.
+* **Pour la vitesse :**
+  * Deployment frequency : cet indicateur permet de mesurer la fréquence de livraison en production. Quand sa valeur est supérieure à un déploiement par jour, c’est un indicateur de haute performance.
+  * Product delivery lead time : permet de mesurer la rapidité de mise à disposition en production du code finalisé. Moins d’une heure est un bon indicateur.
+
+Une première étape vers une solution est de mesurer la performance de l’équipe en faisant une cartographie de chaines de valeur, [“value stream map”](https://fr.wikipedia.org/wiki/Value-stream_mapping). C’est un outil pour visualiser le temps perdu par rapport au temps effectif et d’essayer par la suite de trouver une solution au goulot d’étranglement. À partir du moment où on a défini la value stream map pour déterminer le goulot d’étranglement on peut identifier les éléments bloquants pour les automatiser.
+# Arrivée à bon port
+
+Dans le cas où vous faites face aux situations présentées dans cet épisode, nous espérons avoir apporté des solutions pour vous aider à améliorer votre quotidien et réduire les frustrations face au manque de vision et quand l’automatisation n’est pas bien accueillie.
+
+Le prochain épisode sera le dernier de notre série, nous vous laissons le découvrir.
+
+[prochain épisode]({{'/2022/07/12/quand-la-vitesse-5.html'| relative_url}})
+
