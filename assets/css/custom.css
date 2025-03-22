@@ -2,7 +2,8 @@ header { display: block;}
 a:hover { color: #111; text-decoration: none; }
 /** Site header */
 .site-header {
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-right: 25px;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
@@ -14,3 +15,16 @@ a:hover { color: #111; text-decoration: none; }
   align-items: center;
   gap: 0.5px;
 }
+.site-nav {  display: flex; flex-direction: row ; float: right; line-height: 54px; }
+
+.site-nav .page-link {
+  color: #111;
+  min-height: 54px;
+  display: flex;
+  align-items: center; gap:2px; }
+.site-nav .page-link:hover { color:  #2a7ae2;   }
+
+ .large-icon {
+   font-size: 48px;
+ }
+
