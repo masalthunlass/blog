@@ -1,0 +1,16 @@
+header { display: block;}
+a:hover { color: #111; text-decoration: none; }
+/** Site header */
+.site-header {
+  padding-left: 10px;
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5px;
+}
