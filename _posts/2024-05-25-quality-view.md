@@ -38,7 +38,7 @@ En premier lieu, il est nécessaire d’avoir une vue réaliste des modules du l
 Chaque membre de l’équipe commence par dessiner de son côté sa vision des composants du logiciel en fonction de ses connaissances (ce sur quoi il a travaillé, la documentation dont il dispose, ce qu’il a compris…). Dans un second temps, on forme des paires de participants pour mettre en commun leurs visions et créer un nouveau schéma du système. Enfin toute l’équipe se rassemble pour co-dessiner la vue finale du système. 
 
 
-![step 1](/assets/quality_view/step-1.png)
+![step 1]({{ '/assets/quality_view/step-1.png' | relative_url }})
 
 _Légende : Un schéma pour une personne seule ou une paire. Dans le schéma final, il ne doit exister que des carrés représentant des modules et leurs liens._ 
 
@@ -60,7 +60,7 @@ _Légende : un exemple du formalisme d’un module de code à l’étape 1 sur
 Chaque bloc représentant un module est proportionné en fonction de sa taille, ici la mesure prise est le nombre de lignes de code. Cette étape n’a pas été réalisée lors de l’atelier, il nous a été donné un schéma déjà proportionné. Je suppose que l’intérêt réside dans le fait que plus un module comporte de lignes de code, plus il peut y résider de bugs, ou simplement de complexité, qui vont   allonger le temps de sa maitrise par les développeur-se-s.  
 
 
-![step 2](/assets/quality_view/step-2.png)
+![step 2]({{ '/assets/quality_view/step-2.png' | relative_url }})
 _Légende : Un schéma de groupe (simplifié) de l’étape 2_ 
 
  
@@ -76,14 +76,14 @@ Seuls les développeur-se-s participent à cette étape.
 D’abord chacun de leur côté, puis en paire, ils établissent un schéma classant chaque module en fonction de leur degré de qualité selon leur estimation. Les schémas vont différer en fonction de leur connaissance du module et de leurs critères personnels de qualité. La réconciliation des schémas se fera en discutant leurs différentes perceptions. Nous avons choisi dans notre équipe de nuancer le score de qualité du code par la qualité perçue par Penelope, notre PM, chargée des tests exploratoires. Cela n’était pas, néanmoins, une consigne donnée. 
 
 
-![step 3](/assets/quality_view/step-3.png)
+![step 3]({{ '/assets/quality_view/step-3.png' | relative_url }})
 
 _Légende : Un schéma pour une personne seule ou une paire_ 
 
 Une échelle de nuances de qualité de code est donnée :  allant du vert (très bon) puis jaune puis orange vers le rouge (très mauvais). L’équipe des développeur-se-s au complet complète ensuite le squelette de l’application en coloriant chaque bloc selon sa qualité. 
 
 
-![step 3 final](/assets/quality_view/step-3-final.png)
+![step 3 final]({{ '/assets/quality_view/step-3-final.png' | relative_url }})
 _Légende : Un schéma de groupe (simplifié) de l’étape 3_ 
 
  
@@ -98,7 +98,7 @@ Seuls les développeur-se-s participent à cette étape.
 
 L’objectif de cette étape est d’indiquer dans le dessin pour chaque module la qualité de ses tests par une échelle colorée dans une case en bas à gauche. (vert très bon à rouge très mauvais). On peut éventuellement pour cela s’appuyer sur des métriques (ex le taux de couverture) mais il est important de discuter de ses critères. Cette évaluation est également d’abord à réaliser seul-e puis en paire puis avec tout le groupe. 
 
-![step 4](/assets/quality_view/step-4.png)
+![step 4]({{ '/assets/quality_view/step-4.png' | relative_url }})
 
 _Légende : Un schéma de groupe (simplifié) de l’étape 4_ 
 
@@ -136,13 +136,13 @@ Chaque développeur-se y dépose sa marque (par exemple son initiale) dans la zo
 
 Cela donne un histogramme de compétences comme ceci : 
 
-![step 5 histogramme](/assets/quality_view/step-5-histo.png)
+![step 5 histogramme]({{ '/assets/quality_view/step-5-histo.png' | relative_url }})
 
 _Légende : Un histogramme de compétence_ 
 
 
 
-![step 5](/assets/quality_view/step-5.png)
+![step 5]({{ '/assets/quality_view/step-5.png' | relative_url }})
 
 _Légende : Un schéma simplifié de l’étape 5_ 
 
@@ -157,7 +157,7 @@ _Légende : Un schéma simplifié de l’étape 5_
 Cette étape vise à mettre en évidence les modules ayant été impactés par des bugs. Une case au coin supérieur droit de chaque module est prévue pour contenir un point par bug. J’y vois un moyen de statuer sur la stabilité d’un module. Plus il a connu de bugs plus il me parait fragile. 
 
 
-![step 6](/assets/quality_view/step-6.png)
+![step 6]({{ '/assets/quality_view/step-6.png' | relative_url }})
 
 _Légende : Un schéma simplifié de l’étape 6_ 
 
@@ -169,7 +169,7 @@ _Légende : Un schéma simplifié de l’étape 6_
 
 Les fonctionnels de l’équipe jouent un rôle central à cette étape. Ils présentent les nouvelles fonctionnalités attendues pondérées par un score de valeur et par ordre de priorité. La fonctionnalité A est peut-être hautement indispensable, elle aura la note de 3 diamants, la B un peu moins, on la notera 2 diamants et la C viendra ensuite avec une moindre attente de la part du métier, évaluée à 1 diamant.  L’équipe technique déduit de la description du besoin les modules prochainement impactées et reporte le score en nombre de diamants pour chacun dans le coin inférieur droit. 
 
-![step 7](/assets/quality_view/step-7.png)
+![step 7]({{ '/assets/quality_view/step-7.png' | relative_url }})
 
 _Légende : Un schéma simplifié de l’étape 7, ici la valeur métier est exprimée en nombre de losanges bleus. Plus il y a de losanges plus elle est importante._ 
 
@@ -181,7 +181,7 @@ A ce stage, l’équipe a sous les yeux une cartographie du système actuel. Il 
 
 Chaque membre dispose de 3 votes sous la forme de points à placer dans une case en bas du module. Personnellement je porte une attention plus grande aux points du code qui vont avoir à être modifiés pour ajouter de la valeur métier et à ceux qui sont particulièrement bogués mais tout autre critère, comme l’ajout de tests ou le besoin de monter en compétences, est bon à considérer.  
 
-![step 8](/assets/quality_view/step-8.png)
+![step 8]({{ '/assets/quality_view/step-8.png' | relative_url }})
 
 _Légende : Un schéma simplifié de l’étape 8, les modules A et E ont été choisis par l’équipe comme points chauds_ 
 
