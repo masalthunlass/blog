@@ -42,7 +42,7 @@ Chaque membre de l’équipe commence par dessiner de son côté sa vision des c
 
 _Légende : Un schéma pour une personne seule ou une paire. Dans le schéma final, il ne doit exister que des carrés représentant des modules et leurs liens._ 
 
-![step 1 module](/assets/quality_view/step-1_module.png)
+![step 1 module]({{ '/assets/quality_view/step-1_module.png' | relative_url }})
 _Légende : un exemple du formalisme d’un module de code à l’étape 1 sur le schéma final de groupe. Il n’a aucune couleur. Il comporte plusieurs zones dans les coins supérieurs ou inférieurs qui seront complétées dans les étapes suivantes. Les modules sont nommés et reliés entre eux selon leurs dépendances._  
 
  
