@@ -1,5 +1,5 @@
 ---
-title: "Quality view : Matérialiser la qualité du code d’un logiciel pour les non-techniques "
+title: "Quality view : Matérialiser la qualité du code pour les non-techniques "
 date: 2024-05-25
 author: "Mathilde Salthun-Lassalle"
 ---
