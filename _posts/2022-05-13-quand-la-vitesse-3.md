@@ -1,7 +1,7 @@
 ---
 title: "Quand la vitesse génère de la frustration – Épisode 3"
 date: 2022-05-13
-author: ["Mathilde Salthun-Lassalle","Dora Bartaguiz"]
+author: ["Mathilde Salthun-Lassalle","Dorra Bartaguiz"]
 ---
 _Nous vous proposons une série d’articles pour traiter les problématiques liées au rythme de production d’un logiciel, les frustrations engendrées et les solutions qui peuvent être apportées pour améliorer la vie de l’équipe._
 _Dans le [premier épisode]({{'/2022/03/30/quand-la-vitesse-1.html'| relative_url}}), nous avons abordé le besoin pressant de vitesse. Ensuite dans le [deuxième]({{'/2022/04/29/quand-la-vitesse-2.html'| relative_url}}), nous avons évoqué le sujet de la dette technique engendrée par la précipitation au détriment de la qualité._
