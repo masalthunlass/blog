@@ -6,7 +6,7 @@ author: "Mathilde Salthun-Lassalle"
 
 Lors de la conférence NewCrafts qui a eu lieu le 16 et 17 mai 2024 à Paris, Philippe Bourgau (agile & craft coach) et Mirna Mahloud (développeuse & coach) ont animé un atelier sur la méthode de « Quality view ».  
 
-Cet article donne un aperçu de la méthodologie « quality view » telle que je l’ai appréhendée. Je recommande la lecture des articles de Philippe Bourgau (https://philippe.bourgau.net/a-quality_view-workshop-to-discuss-technical-excellence/)  et de Colin Breck (https://blog.colinbreck.com/using-quality_views-to-communicate-software-quality-and-evolution/) pour des informations plus précises.  
+Cet article donne un aperçu de la méthodologie « quality view » telle que je l’ai appréhendée. Je recommande la lecture des articles de [Philippe Bourgau](https://philippe.bourgau.net/a-quality_view-workshop-to-discuss-technical-excellence/)  et de [Colin Breck](https://blog.colinbreck.com/using-quality_views-to-communicate-software-quality-and-evolution/) pour des informations plus précises.  
 
  
 
