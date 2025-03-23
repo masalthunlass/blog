@@ -1,7 +1,7 @@
 ---
 title: "Quand la vitesse génère de la frustration – Épisode 2"
 date: 2022-04-29
-author: ["Mathilde Salthun-Lassalle","Dora Bartaguiz"]
+author: ["Mathilde Salthun-Lassalle","Dorra Bartaguiz"]
 ---
 _Nous vous proposons une série d’articles pour traiter les problématiques liées au rythme de production d’un logiciel, les frustrations engendrées et les solutions qui peuvent être apportées pour améliorer la vie de l’équipe._
 

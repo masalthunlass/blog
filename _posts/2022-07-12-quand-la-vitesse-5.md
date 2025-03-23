@@ -1,7 +1,7 @@
 ---
 title: "Quand la vitesse génère de la frustration – Épisode de fin"
 date: 2022-07-12
-author: ["Mathilde Salthun-Lassalle","Dora Bartaguiz"]
+author: ["Mathilde Salthun-Lassalle","Dorra Bartaguiz"]
 ---
 _Nous vous proposons une série d’articles pour traiter les problématiques liées au rythme de production d’un logiciel, les frustrations engendrées et les solutions qui peuvent être apportées pour améliorer la vie de l’équipe. Si vous nous avez suivies jusqu’ici, vous avez peut-être retenu qu’au départ du projet, il ne faut pas faire perdurer la durée d’implémentation d’une idée, pour mieux optimiser les coûts et augmenter le retour sur investissement. Votre projet n’est pas le seul dans la course et son endurance est mise à l’épreuve par les pressions qu’il subit en permanence de la concurrence ou de la clientèle (vu au [premier épisode]({{'/2022/03/30/quand-la-vitesse-1.html'| relative_url}}) ). Cependant, dans la précipitation, le manque de bonnes pratiques vous coûte et ralentit votre avancée. Les petits pas sont plus sûrs que les grandes foulées quand il s’agit de maintenir un rythme de production rapide (vu au [deuxième épisode]({{'/2022/04/29/quand-la-vitesse-2.html'| relative_url}}) ). De plus, les décisions prises sans esprit d’équipe ne vous poussent pas dans la bonne direction (vu au [troisième épisode]({{'/2022/05/13/quand-la-vitesse-3.html'| relative_url}}) ) et le manque de vision sur la ligne d’arrivée, vous fait perdre du temps. Enfin, soigner l’arrivée, autrement dit la livraison du produit, est au moins aussi important que de faire un bon départ (vu au [quatrième épisode]({{'/2022/06/14/quand-la-vitesse-4.html'| relative_url}}) )._
 
