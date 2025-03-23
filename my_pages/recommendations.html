@@ -1,0 +1,21 @@
+---
+layout: base
+permalink: /recommendations/
+---
+<h2 class="post-link-heading">Recommandations de lecture</h2>
+<ul class="post-list" >
+        {%- for book in site.data.books  -%}
+          <li>
+             <span class="post-meta">
+            {%- for author in book.authors  -%}
+              {{ author  }}
+               {%- if forloop.last == false %}, {% endif -%}
+            {%- endfor -%}
+            </span>
+             <h3 class="post-link">{{ book.title | escape }}</h3>
+             <p class="post-abstract">
+                {{ book.abstract  }}
+             </p>
+        </li>
+        {%- endfor -%}
+</ul>

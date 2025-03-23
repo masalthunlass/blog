@@ -1,3 +1,8 @@
+{%- if page.permalink != '/recommendations/' -%}
+<a href="{{'/recommendations/'| relative_url}}" class="page-link" >
+    <span class="material-symbols-outlined large-icon">book_2</span>
+</a>
+{%- endif -%}
 {%- if page.permalink != '/about/' -%}
 <a href="{{'/about/'| relative_url}}" class="page-link" >
     <span class="material-symbols-outlined large-icon">data_loss_prevention</span>

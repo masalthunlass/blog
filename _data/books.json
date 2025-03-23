@@ -1,0 +1,43 @@
+[
+  {
+    "authors": ["Felienne Hermans"],
+    "title": "The Programmer's Brain: what every programmer needs to know about cognition",
+    "abstract": "Une professeure en informatique, titulaire d'un doctorat, créatrice du language Hedy pour l'enseignement de la programmation, rend compte des recherches cognitives concernant la lisibilité et la compréhension du code par les développeurs."
+  },
+  {
+    "authors": ["Cyrille Martraire", "Arnaud Thiéfaine", "Dorra Brataguiz", "Fabien Hiegel", "Houssam Fakih"],
+    "title": "Software Craft",
+    "abstract": "Un résumé des fondamentaux du software craftsmanship en langue française par des professionnels enthousiastes de sa communauté."
+  },
+  {
+    "authors": ["Kent Beck"],
+    "title": "Tidy First?: a personal exercise in empirical software",
+    "abstract": "Le créateur de l'extreme programming et pionnier des design patterns, partage sa vision et son approche du changement dans le code."
+  },
+  {
+    "authors": ["Isabelle Collet"],
+    "title": "Les oubliées du numérique",
+    "abstract": "Une chercheuse et informaticienne s'interroge sur les raisons du faible nombre de femmes dans  le champ de l'informatique et sur les solutions permettant d'y remédier."
+  },
+  {
+    "authors": ["David Thomas, Andrew Hunt"],
+    "title": "The Pragmatic Programmer: Your Journey to Mastery",
+    "abstract": "Deux programmeurs, initiateurs du Manifeste Agile, expliquent en quoi une approche pragmatique du developpement logiciel peut être efficace."
+  }
+,
+  {
+    "authors": ["Martin Fowler"],
+    "title": "Refactoring",
+    "abstract": "Un programmeur, initiateur du Manifeste Agile, liste les principes et les bonnes pratiques du refactoring de code."
+  },
+  {
+    "authors": ["Jacqui Read"],
+    "title": "Communication Patterns: A guide for developers and architects",
+    "abstract": "Une architecte propose ses solutions pour une communication orale, écrite, visuelle ou encore à distance efficace dans les équipes de développement logiciel."
+  },
+  {
+    "authors": ["Cyrille Matraire"],
+    "title": "Living Documentation: Continuous Knowledge Sharing by Design",
+    "abstract": "Le CTO d'Arolla, spécialiste du DDD et du craft, développe l'idée de documenter automatiquement le code."
+  }
+]
