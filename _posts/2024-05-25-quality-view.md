@@ -18,7 +18,7 @@ Pour y parvenir, toutes les parties prenantes impliquées dans le développement
 
  
 
-# Comment dessiner une quality view  
+## Comment dessiner une quality view  
 
  
 
@@ -32,7 +32,7 @@ Les impératifs de délais et de budget, poussent à se concentrer uniquement su
 
  
 
-## Etape 1 - Dessiner le squelette nu du logiciel 
+# Etape 1 - Dessiner le squelette nu du logiciel 
 
 En premier lieu, il est nécessaire d’avoir une vue réaliste des modules du logiciel et de leurs dépendances. 
 
@@ -57,7 +57,7 @@ _Légende : un exemple du formalisme d’un module de code à l’étape 1 sur
 
  
 
-## Etape 2 - Proportionner les composants 
+# Etape 2 - Proportionner les composants 
 
 Chaque bloc représentant un module est proportionné en fonction de sa taille, ici la mesure prise est le nombre de lignes de code. Cette étape n’a pas été réalisée lors de l’atelier, il nous a été donné un schéma déjà proportionné. Je suppose que l’intérêt réside dans le fait que plus un module comporte de lignes de code, plus il peut y résider de bugs, ou simplement de complexité, qui vont   allonger le temps de sa maitrise par les développeur-se-s.  
 
@@ -67,7 +67,7 @@ _Légende : Un schéma de groupe (simplifié) de l’étape 2_
 
  
 
-## Etape 3 – Colorier selon la qualité de code 
+# Etape 3 – Colorier selon la qualité de code 
 
  
 
@@ -90,7 +90,7 @@ _Légende : Un schéma de groupe (simplifié) de l’étape 3_
 
  
 
-## Etape 4 – Matérialiser la qualité des tests 
+# Etape 4 – Matérialiser la qualité des tests 
 
  
 
@@ -110,7 +110,7 @@ _Légende : Un schéma de groupe (simplifié) de l’étape 4_
 
  
 
-## Etape 5 – Matérialiser les capacités de chacun 
+# Etape 5 – Matérialiser les capacités de chacun 
 
  
 
@@ -152,7 +152,7 @@ _Légende : Un schéma simplifié de l’étape 5_
 
  
 
-## Etape 6 – Indiquer les bugs des 6 derniers mois  
+# Etape 6 – Indiquer les bugs des 6 derniers mois  
 
  
 
@@ -165,7 +165,7 @@ _Légende : Un schéma simplifié de l’étape 6_
 
  
 
-## Etape 7 – Indiquer les prochains impacts  
+# Etape 7 – Indiquer les prochains impacts  
 
  
 
@@ -177,7 +177,7 @@ _Légende : Un schéma simplifié de l’étape 7, ici la valeur métier est e
 
  
 
-## Etape 8 – Voter pour les points chauds  
+# Etape 8 – Voter pour les points chauds  
 
 A ce stage, l’équipe a sous les yeux une cartographie du système actuel. Il y a surement de nombreux points d’attention, des zones instables, des zones inexplorées et obscures, des zones à fort enjeu… Il est temps de voter pour décider des modules où l’équipe veut diriger toute son attention en priorité car, rappelez-vous, les délais et le budget pèsent sur les décisions et menacent la réussite du projet. 
 
@@ -189,7 +189,7 @@ _Légende : Un schéma simplifié de l’étape 8, les modules A et E ont ét�
 
  
 
-## Etape 9 – Se mettre d’accord sur les actions 
+# Etape 9 – Se mettre d’accord sur les actions 
 
  
 
