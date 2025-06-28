@@ -2,6 +2,10 @@
 
 this codebase aimed to create a blog
 
+## requirements
+* install ruby
+* install bundle `gem install bundle`
+
 ## Install project
 
 run
