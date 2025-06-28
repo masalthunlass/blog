@@ -36,8 +36,20 @@
     "abstract": "Une architecte propose ses solutions pour une communication orale, écrite, visuelle ou encore à distance efficace dans les équipes de développement logiciel."
   },
   {
-    "authors": ["Cyrille Matraire"],
+    "authors": ["Cyrille Martraire"],
     "title": "Living Documentation: Continuous Knowledge Sharing by Design",
     "abstract": "Le CTO d'Arolla, spécialiste du DDD et du craft, développe l'idée de documenter automatiquement le code."
+  },
+  {
+    "authors": ["Adam Thornhill"],
+    "title": "Your Code as a Crime Scene",
+    "abstract": "Diplômé de psychologie et d'ingénierie, le créateur de l'outil CodeScene, donne ses techniques d'analyse automatique de la qualité du code inspirées de la forensique. "
+  },
+  {
+    "authors": ["Dan Bergh Johnson, Daniel Deogun, Daniel Sawano"],
+    "title": "Secure by design",
+    "abstract": "Des développeurs et spécialistes de cyber sécurité argumentent que la sécurité n'est pas une option mais une préoccupation de chaque instant. Ils proposent d'apporter la sécurité par une attention au design  et non par une expertise dans ce domaine. "
+
+
   }
 ]
