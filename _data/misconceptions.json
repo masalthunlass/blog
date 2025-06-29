@@ -1,0 +1,42 @@
+[
+  {
+    "sentence": "C'est juste un bouton !",
+    "said_by": "un-e fonctionnel-le",
+    "counterarguments": [
+      {
+        "answer": "La complexité est cachée",
+        "source": "https://www.followtribes.io/developpement-produit-saas/"
+      }
+    ]
+  },
+  {
+    "said_by": "un-e développeur-se",
+    "sentence": "Si çà concerne le métier, ça ne m'interesse pas",
+    "counterarguments": [
+      {
+        "answer": "Ce n'est pas juste un entier c'est une primitive du domaine",
+        "source": "https://dearjunior.blogspot.com/"
+      }
+    ]
+  },
+  {
+    "said_by": "un-e décisionnaire",
+    "sentence": "Pour aller plus vite, il faut mettre plus de devs",
+    "counterarguments": [
+      {
+        "answer": "La programmation est une tâche qui nécessite de la communication et ne peut pas être partitionnée simplement",
+        "source": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month#The_mythical_man-month"
+      }
+    ]
+  },
+  {
+    "said_by": "un-e dev sénior",
+    "sentence": "J'ai 12 ans d'experience, toi 4 donc tais toi !",
+    "counterarguments": [
+      {
+        "answer": "Peu importe le niveau de karaté que tu as, un-e autre en saura plus",
+        "source": "https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/"
+      }
+    ]
+  }
+]

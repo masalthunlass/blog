@@ -1,0 +1,18 @@
+[
+  {
+    "permalink": "/",
+    "icon": "article"
+  },
+  {
+    "permalink": "/recommendations/",
+    "icon": "local_library"
+  },
+  {
+    "permalink": "/misconceptions/",
+    "icon": "sentiment_stressed"
+  },
+  {
+    "permalink": "/about/",
+    "icon": "data_loss_prevention"
+  }
+]

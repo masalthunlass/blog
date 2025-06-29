@@ -109,7 +109,8 @@ table td { border: 1px solid #e8e8e8; }
 
 .page-heading { font-size: 32px; }
 
-.post-list-heading { font-size: 28px; }
+.post-list-heading { font-size: 35px; margin-bottom: 25px;  }
+.post-list-subheading { font-size: 18px; color: #123455; margin-bottom: 45px; }
 
 .post-list { margin-left: 0; list-style: none; }
 .post-list > li { margin-bottom: 30px; }
