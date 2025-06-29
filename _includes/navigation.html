@@ -1,18 +1,15 @@
-{%- if page.permalink != '/recommendations/' -%}
-<a href="{{'/recommendations/'| relative_url}}" class="page-link" >
-    <span class="material-symbols-outlined large-icon">book_2</span>
+{%- for item in site.data.menu  -%}
+
+{%- if page.permalink != item.permalink  -%}
+<a href="{{ item.permalink | relative_url}}" class="page-link" >
+    <span class="material-symbols-outlined large-icon">  {{  item.icon }}</span>
+</a>
+{%- else -%}
+<a href="{{ item.permalink | relative_url}}" class="page-link visited" disabled >
+    <span class="material-symbols-outlined large-icon">  {{  item.icon }}</span>
 </a>
 {%- endif -%}
-{%- if page.permalink != '/about/' -%}
-<a href="{{'/about/'| relative_url}}" class="page-link" >
-    <span class="material-symbols-outlined large-icon">data_loss_prevention</span>
-</a>
-{%- endif -%}
-{%- if page.permalink != '/' -%}
-<a href="{{'/'| relative_url}}" class="page-link" >
-    <span class="material-symbols-outlined large-icon">home</span>
-</a>
-{%- endif -%}
+{%- endfor -%}
 
 
 

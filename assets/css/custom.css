@@ -22,15 +22,40 @@ a:hover { color: #111; text-decoration: none; }
   min-height: 54px;
   display: flex;
   align-items: center; gap:2px; }
-.site-nav .page-link:hover { color:  #2a7ae2;   }
+.site-nav .page-link:hover{ color:  #2a7ae2;   }
+.site-nav  .visited { color:  #2a7ae2;   }
 
  .large-icon {
    font-size: 48px;
  }
 
+.small-icon {
+  font-size: 12px;
+  height: 12px;
+}
+
+.post-legend {
+  font-size: 12px;
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  color: #111111;
+  margin: 10px 0 10px 0;
+}
+
+
+.legend-item {
+  display: flex;
+  gap: 2px;
+  align-content: center;
+}
+
  .post-abstract{
+   display: flex;
    margin-top: -10px;
    font-size: 16px;
+   gap:8px;
    color:  darkslategray;
+   align-content: center;
  }
 

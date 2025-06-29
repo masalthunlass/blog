@@ -1,0 +1,33 @@
+---
+layout: base
+permalink: /misconceptions/
+---
+<h2 class="post-list-heading">Idées reçues</h2>
+
+<h3 class="post-list-subheading">
+    Ces phrases, mes collègues et moi, nous les avons entendues à propos de notre métier. <br/>
+    Voilà une occasion d'expliquer en quoi il s'agit de fausses conceptions.
+    <div class="post-legend">
+        <span class="legend-item"> <span class="material-symbols-outlined small-icon">  network_ping </span>  fausse idée</span>
+        <span class="legend-item"> <span class="material-symbols-outlined small-icon">  quick_phrases </span>  réponse</span>
+    </div>
+</h3>
+
+
+<ul class="post-list">
+    {%- for misconception in site.data.misconceptions -%}
+    <li>
+        <span class="post-meta">{{ misconception.said_by }} :</span>
+        <h3 class="post-link">
+            <span class="material-symbols-outlined large-icon">  network_ping </span>
+            "{{ misconception.sentence }}"</h3>
+        <p class="post-abstract">
+            <span class="material-symbols-outlined large-icon">  quick_phrases </span>
+            {%- for item in misconception.counterarguments -%}
+            <a href="{{ item.source | escape }}" target="_blank">"{{ item.answer }}"</a>
+            {%- endfor -%}
+
+        </p>
+    </li>
+    {%- endfor -%}
+</ul>
