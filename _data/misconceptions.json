@@ -38,5 +38,15 @@
         "source": "https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/"
       }
     ]
+  },
+  {
+    "said_by": "un-e non-dev",
+    "sentence": "La programmation c'est pour les scientifiques",
+    "counterarguments": [
+      {
+        "answer": "Selon une étude de Prat, l'aptitude linguistique est le meilleur facteur prédictif des capacités en programmation d'une personne. (cf fig. 3)",
+        "source": "https://www.nature.com/articles/s41598-020-60661-8.pdf"
+      }
+    ]
   }
 ]
