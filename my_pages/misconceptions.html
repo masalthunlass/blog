@@ -22,14 +22,14 @@ permalink: /misconceptions/
         <h3 class="post-link">
             <span class="material-symbols-outlined large-icon">  network_ping </span>
             "{{ misconception.sentence }}"</h3>
-        <p class="post-abstract">
+        <div class="post-abstract flux-lines">
             <span class="material-symbols-outlined large-icon">  quick_phrases </span>
-            <span class="flux-lines">
+            <div class="flux-columns">
             {%- for item in misconception.counterarguments -%}
             <a href="{{ item.source | escape }}" target="_blank">"{{ item.answer }}"</a>
             {%- endfor -%}
-             </span>
-        </p>
+             </div>
+        </div>
     </li>
     {%- endfor -%}
 </ul>
