@@ -35,8 +35,17 @@ a:hover { color: #111; text-decoration: none; }
 }
 
 .flux-lines {
-  display:  flex; flex-direction: column ;
+  display:  flex;
+  flex-direction: row ;
 }
+
+
+.flux-columns {
+  display:  flex;
+  flex-direction: column ;
+}
+
+
 
 .post-legend {
   font-size: 12px;
