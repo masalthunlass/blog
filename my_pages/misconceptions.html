@@ -9,7 +9,8 @@ permalink: /misconceptions/
     Voilà une occasion d'expliquer en quoi il s'agit de fausses conceptions.
     <div class="post-legend">
         <span class="legend-item"> <span class="material-symbols-outlined small-icon">  network_ping </span>  fausse idée</span>
-        <span class="legend-item"> <span class="material-symbols-outlined small-icon">  quick_phrases </span>  réponse</span>
+        <span class="legend-item"> <span
+                class="material-symbols-outlined small-icon">  quick_phrases </span>  réponse</span>
     </div>
 </h3>
 
@@ -23,10 +24,11 @@ permalink: /misconceptions/
             "{{ misconception.sentence }}"</h3>
         <p class="post-abstract">
             <span class="material-symbols-outlined large-icon">  quick_phrases </span>
+            <span class="flux-lines">
             {%- for item in misconception.counterarguments -%}
             <a href="{{ item.source | escape }}" target="_blank">"{{ item.answer }}"</a>
             {%- endfor -%}
-
+             </span>
         </p>
     </li>
     {%- endfor -%}

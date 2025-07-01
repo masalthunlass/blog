@@ -26,6 +26,10 @@
       {
         "answer": "La programmation est une tâche qui nécessite de la communication et ne peut pas être partitionnée simplement",
         "source": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month#The_mythical_man-month"
+      },
+      {
+        "answer": "Pour aller plus vite, il faut réduire la taille de l'en-cours (loi de little) ",
+        "source": "https://www.youtube.com/watch?v=0J5kN9gCoXg"
       }
     ]
   },
@@ -46,6 +50,16 @@
       {
         "answer": "Selon une étude de Prat, l'aptitude linguistique est le meilleur facteur prédictif des capacités en programmation d'une personne. (cf fig. 3)",
         "source": "https://www.nature.com/articles/s41598-020-60661-8.pdf"
+      }
+    ]
+  },
+  {
+    "said_by": "un-e non dev",
+    "sentence": "Les devs sont silencieux car ils sont dans leur monde.",
+    "counterarguments": [
+      {
+        "answer": "La programmation nécessite une phase de chauffe. En effet, lors d'une interruption, il faut environ un quart d'heure pour recommencer à modifier le code. Les résultats d'une étude de Parnin montrent que les programmeurs doivent déployer des efforts délibérés pour reconstruire le contexte avant de poursuivre leur travail. (partie 11.2.2, the programmer's brain, F. Hermans)",
+        "source": "https://www.manning.com/books/the-programmers-brain"
       }
     ]
   }
