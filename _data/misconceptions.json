@@ -62,5 +62,15 @@
         "source": "https://www.manning.com/books/the-programmers-brain"
       }
     ]
+  },
+  {
+    "said_by": "un-e dev",
+    "sentence": "Normalement c'est fini demain",
+    "counterarguments": [
+      {
+        "answer": "Si la problématique a un contexte complexe, il n'y a pas de prédictibilité (Cynefin)",
+        "source": "https://medium.com/@bartlettstarman/une-introduction-%C3%A0-cynefin-f0962c63f21e "
+      }
+    ]
   }
 ]
