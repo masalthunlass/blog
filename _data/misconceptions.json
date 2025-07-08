@@ -14,8 +14,8 @@
     "sentence": "Si çà concerne le métier, ça ne m'interesse pas",
     "counterarguments": [
       {
-        "answer": "Ce n'est pas juste un entier c'est une primitive du domaine",
-        "source": "https://dearjunior.blogspot.com/"
+        "answer": "Une mauvaise modélisation du domaine représente une faille de sécurité (secure by design)",
+        "source": "https://www.youtube.com/watch?v=BpMzn9AxNcw"
       }
     ]
   },
