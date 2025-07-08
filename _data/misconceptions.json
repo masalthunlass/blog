@@ -72,5 +72,15 @@
         "source": "https://medium.com/@bartlettstarman/une-introduction-%C3%A0-cynefin-f0962c63f21e "
       }
     ]
+  },
+  {
+    "said_by": "une partie prenante",
+    "sentence": "Sans la qualité, on aurait livré plus vite.",
+    "counterarguments": [
+      {
+        "answer": "Modifier un logiciel de bonne qualité est plus facile et donc plus rapide",
+        "source": "https://www.martinfowler.com/articles/is-quality-worth-cost.html#AtFirstGlanceInternalQualityDoesNotMatterToCustomers\n"
+      }
+    ]
   }
 ]
