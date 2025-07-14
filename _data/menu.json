@@ -14,5 +14,9 @@
   {
     "permalink": "/about/",
     "icon": "data_loss_prevention"
+  },
+  {
+    "permalink": "/drawthecode/",
+    "icon": "draw"
   }
 ]
