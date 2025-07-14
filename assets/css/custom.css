@@ -72,3 +72,23 @@ a:hover { color: #111; text-decoration: none; }
    align-content: center;
  }
 
+ .slide {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+
+ .slide-legend {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   text-align: center;
+ }
+
+.slide-image {
+  max-width:440px !important;
+}
+
+.slide-navigation {
+  width: 40px;
+}

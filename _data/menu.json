@@ -12,11 +12,11 @@
     "icon": "sentiment_stressed"
   },
   {
-    "permalink": "/about/",
-    "icon": "data_loss_prevention"
-  },
-  {
     "permalink": "/drawthecode/",
     "icon": "draw"
+  },
+  {
+    "permalink": "/about/",
+    "icon": "data_loss_prevention"
   }
 ]

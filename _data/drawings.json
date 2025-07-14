@@ -1,0 +1,8 @@
+[
+  { "image": "/assets/img/dessin-programmation/backend.jpg",
+    "legend" :"backend"
+  },
+  { "image": "/assets/img/dessin-programmation/base_de_donnees.jpg",
+    "legend" :"base de données"
+  }
+]
