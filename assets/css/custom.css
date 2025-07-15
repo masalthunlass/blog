@@ -98,7 +98,7 @@ a:hover {
 
 .post-article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 5px;
 }
 
@@ -108,6 +108,14 @@ a:hover {
     padding: 5px 10px;
     color: white;
     border-radius: 2px;
+    width: 200px;
+}
+.post-article-diapo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
 }
 
 .slide {
@@ -122,6 +130,10 @@ a:hover {
     flex-direction: column;
     gap: 10px;
     text-align: center;
+    color: darkslategray;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top:  10px;
 }
 
 .slide-image {
