@@ -12,6 +12,10 @@
     "icon": "sentiment_stressed"
   },
   {
+    "permalink": "/drawthecode/",
+    "icon": "draw"
+  },
+  {
     "permalink": "/about/",
     "icon": "data_loss_prevention"
   }
