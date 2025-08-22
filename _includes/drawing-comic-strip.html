@@ -1,0 +1,11 @@
+<div class="comic-strip">
+    {%- for panel in site.data.comicstrips  -%}
+
+    <div class="comic-strip-panel">
+        <img
+             src="{{ panel.image }}"
+             alt="{{ panel.alt }}"
+             class="comic-strip-img"/>
+    </div>
+    {%- endfor -%}
+</div>
