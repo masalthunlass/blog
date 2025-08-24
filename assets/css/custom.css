@@ -167,8 +167,8 @@ a:hover {
     align-content: center;
 }
 .comic-strip-panel {
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 155px;
     margin-bottom: 10px;
     margin-top: 10px;
     border:  3px solid lightgray;
@@ -201,6 +201,27 @@ a:hover {
 .post-article-strip-legend {
     font-size: small;
     margin-bottom: 25px;
+}
+
+.comic-strip-tooltip-link:hover .comic-strip-tooltip  {
+    display: block;
+
+}
+
+.comic-strip-tooltip-link {
+    position: relative;
+    cursor: pointer;
+}
+
+.comic-strip-tooltip  {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    background: black;
+    width: 150px;
+    height: 150px;
+    color:  white;
+    padding: 5px;
 }
 
 

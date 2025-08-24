@@ -1,222 +1,277 @@
 [
   {
     "image": "none",
-    "text": "Un client passe commande d'un gâteau pour la date de son anniversaire, le lendemain."
+    "text": "Un client passe commande d'un gâteau pour la date de son anniversaire, le lendemain.",
+    "dev_pov": "Dans cet exemple, le client impose une date de livraison. Le temps imparti qu'il a estimé seul est très court."
   },
   {
     "image": "../assets/img/dessin-stories/33-table.png",
-    "text": "33"
+    "text": "clients à table",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/1-commande.png",
-    "text": "1"
-  },
-  {
-    "image": "none",
-    "text": "Le chef nouvellement recruté prend note et découvre son nouveau lieu de travail, la cuisine."
+    "text": "commande d'un gateau",
+    "dev_pov": "La définition d'une commande est normalement une négociation entre les parties. Ce n'est pas le cas ici."
   },
   {
     "image": "../assets/img/dessin-stories/2-chef.png",
-    "text": "2"
+    "text": "2",
+    "dev_pov": "Contrairement à cet exemple, le plus souvent, les devs travaillent en équipe. "
+  },
+  {
+    "image": "none",
+    "text": "Le chef nouvellement recruté prend note et découvre son nouveau lieu de travail, la cuisine.",
+    "dev_pov": "Le dev, nouvelle recrue, decouvre la base de code existante."
   },
   {
     "image": "../assets/img/dessin-stories/3-cuisine.png",
-    "text": "3"
+    "text": "3",
+    "dev_pov": "D'un point de vue extérieur, la cuisine peut avoir l'air fonctionnelle."
   },
   {
     "image": "../assets/img/dessin-stories/4-ouvrir-tiroir.png",
-    "text": "4"
+    "text": "4",
+    "dev_pov": "Pourtant quand on regarde sous le capot..."
   },
   {
     "image": "none",
-    "text": "Rapidement, il découvre qu'il a hérité d'une cuisine vétuste et en désordre."
+    "text": "Rapidement, il découvre qu'il a hérité d'une cuisine vétuste et en désordre.",
+    "dev_pov": "Le dev découvre une base de code de mauvaise qualité avec des technos anciennes."
   },
   {
     "image": "../assets/img/dessin-stories/5-tiroir.png",
-    "text": "5"
+    "text": "5",
+    "dev_pov": "Le code a une forte cohésion. Sans séparation claire, différentes fonctions s'impactent entre elles."
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "text": "36"
+    "text": "36",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Toute recherche d'ustensile est longue et compliquée ! Avec minutie, il doit démêler tout çà."
+    "text": "Toute recherche d'ustensile est longue et compliquée ! Avec minutie, il doit démêler tout çà.",
+    "dev_pov": "La lecture du code est difficile. Modifier du code a des effets inattendus."
   },
   {
     "image": "../assets/img/dessin-stories/6-tiroir-vide.png",
-    "text": "6"
+    "text": "6",
+    "dev_pov": "Il faut séparer les responsabilités des composants du logiciel."
   },
   {
     "image": "../assets/img/dessin-stories/7-demeler.png",
-    "text": "7"
+    "text": "7",
+    "dev_pov": "Changer un code existant sans changer son comportement est un refactoring"
   },
   {
     "image": "../assets/img/dessin-stories/8-bol-1.png",
-    "text": "8"
+    "text": "8",
+    "dev_pov": "Cela ne produit pas de résultat visible de l'extérieur mais il sera plus rapide de modifier le code dans le futur."
   },
   {
     "image": "none",
-    "text": "De longs efforts ont été nécessaires pour les ustensiles, il est plus que temps de chercher des ingrédients."
+    "text": "De longs efforts ont été nécessaires pour les ustensiles, il est plus que temps de chercher des ingrédients.",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/9-sucre.png",
-    "text": "9"
+    "text": "9",
+    "dev_pov": "Les langages de programmation donnent la liberté aux devs de choisir un vocabulaire."
   },
   {
     "image": "../assets/img/dessin-stories/10-pas-sucre.png",
-    "text": "10"
+    "text": "10",
+    "dev_pov": "Et ce choix est primordial dans la lecture et la compréhension du code."
   },
   {
     "image": "none",
-    "text": "Du sucre ?...Non, du café !"
+    "text": "Du sucre ?...Non, du café !",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "text": "36"
+    "text": "36",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Mais...les étiquettes des bocaux sont incohérentes ! Une vraie source de confusion !"
+    "text": "Mais...les étiquettes des bocaux sont incohérentes ! Une vraie source de confusion !",
+    "dev_pov": "Le choix des mots et la cohérence du nommage préviennent toute confusion et bugs futurs."
   },
   {
     "image": "../assets/img/dessin-stories/11-etiquette.png",
-    "text": "11"
+    "text": "11",
+    "dev_pov": "Le renommage est aussi une tâche de refactoring. Des règles sont définies."
   },
   {
     "image": "../assets/img/dessin-stories/12-etiquettes.png",
-    "text": "12"
+    "text": "12",
+    "dev_pov": "Le vocabulaire des utilisateurs est repris. Un même concept n'a qu'un seul nom."
   },
   {
     "image": "../assets/img/dessin-stories/13-bol.png",
-    "text": "13"
+    "text": "13",
+    "dev_pov": "Cela ne produit pas de résultat visible de l'extérieur mais a un grand impact sur les developpements futurs."
   },
   {
     "image": "none",
-    "text": "Après le re-étiquettage, toujours rien de prêt. Il faut encore mesurer les ingrédients !"
+    "text": "Après le re-étiquettage, toujours rien de prêt. Il faut encore mesurer les ingrédients !",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/14-main-porte.png",
-    "text": "14"
+    "text": "14",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/15-placard.png",
-    "text": "15"
+    "text": "15",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/16-balance.png",
-    "text": "16"
+    "text": "16",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/17-zero.png",
-    "text": "17"
+    "text": "17",
+    "dev_pov": "Un bug vient d'être découvert"
   },
   {
     "image": "none",
-    "text": "Cette balance ne pèse rien. Pas le temps de la dépanner."
+    "text": "Cette balance ne pèse rien. Pas le temps de la dépanner.",
+    "dev_pov": "Il faut prioriser les tâches et gérer les imprévus. "
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "text": "36"
+    "text": "36",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/18-balance-seule.png",
-    "text": "18"
+    "text": "18",
+    "dev_pov": "Comme il existe des alternatives, le bug n'a pas été jugé bloquant. Il sera réparé rapidement après."
   },
   {
     "image": "../assets/img/dessin-stories/20-balance-cassee.png",
-    "text": "20"
+    "text": "20",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Celle-ci n'est pas prévue pour un tel poids. Elle explose."
+    "text": "Celle-ci n'est pas prévue pour un tel poids. Elle explose.",
+    "dev_pov": "Les devs écrivent du code avec des limites d'usage et doivent gérer les utilisations innapropriées. "
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "text": "36"
+    "text": "36",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/19-mesure.png",
-    "text": "19"
+    "text": "19",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/21-mesure-remplie.png",
-    "text": "21"
+    "text": "21",
+    "dev_pov": "Cela n'a pas été conçu de manière assez explicite. Les devs doivent écrire du code clair pour les autres devs."
   },
   {
     "image": "none",
-    "text": "Ce verre-mesure a une signalétique obscure. Que dit la notice ? "
+    "text": "Ce verre-mesure a une signalétique obscure. Que dit la notice ? ",
+    "dev_pov": "La lecture de documentation  ou de tutoriel fait partie du travail"
   },
   {
     "image": "../assets/img/dessin-stories/22-lis.png",
-    "text": "22"
+    "text": "22",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/23-farine-sel-lait.png",
-    "text": "23"
+    "text": "23",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/24-bol.png",
-    "text": "24"
+    "text": "24",
+    "dev_pov": "Tous ces contretemps ont retardé les avancés."
   },
   {
     "image": "../assets/img/dessin-stories/25-bol-remplir.png",
-    "text": "25"
+    "text": "25",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/26-au-four.png",
-    "text": "26"
+    "text": "26",
+    "dev_pov": "Une fois prêt, le code executable est déployé sur un serveur"
   },
   {
     "image": "../assets/img/dessin-stories/27-dans-four.png",
-    "text": "27"
+    "text": "27",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/28-pars.png",
-    "text": "28"
+    "text": "28",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/29-peur.png",
-    "text": "29"
+    "text": "29",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Enfin au four ! Mais...?!"
+    "text": "Enfin au four ! Mais...?!",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "text": "36"
+    "text": "36",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Le porte ne ferme pas sans une intervention humaine. Le chef la bloque durant toute la cuisson."
+    "text": "Le porte ne ferme pas sans une intervention humaine. Le chef la bloque durant toute la cuisson.",
+    "dev_pov": "En automatisant le déploiement, sans intervention humaine, il serait plus rapide et plus sûr."
   },
   {
     "image": "../assets/img/dessin-stories/30-tiens.png",
-    "text": "30"
+    "text": "30",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/31-desespoir.png",
-    "text": "31"
+    "text": "31",
+    "dev_pov": "Le dev fait de son mieux mais ne peut tenir le délai."
   },
   {
     "image": "../assets/img/dessin-stories/32-gateau.png",
-    "text": "32"
+    "text": "32",
+    "dev_pov": "Par manque de temps, il a fait une version simplifiée du gâteau mais sans en discuter avec le client."
   },
   {
     "image": "../assets/img/dessin-stories/1-commande.png",
-    "text": "1"
+    "text": "1",
+    "dev_pov": ""
   },
   {
     "image": "none",
-    "text": "Retenu par la défaillance du four, le chef n'a plus le temps de terminer la commande. Il faut livrer !"
+    "text": "Retenu par la défaillance du four, le chef n'a plus le temps de terminer la commande. Il faut livrer !",
+    "dev_pov": "La commande doit s'ajuster en fonction du temps disponible. Un mauvais code est un facteur de ralentissement."
   },
   {
     "image": "../assets/img/dessin-stories/35-seul-table.png",
-    "text": "35"
+    "text": "35",
+    "dev_pov": ""
   },
   {
     "image": "../assets/img/dessin-stories/34-triste.png",
-    "text": "34"
+    "text": "34",
+    "dev_pov": "Le client n'a pas eu connaissance du processus de réalisation et ne peut comprendre le résultat."
   }
 ]
