@@ -217,11 +217,24 @@ a:hover {
     display: none;
     z-index: 100;
     position: absolute;
-    background: black;
+    background-color: darkslategray;
     width: 150px;
     height: 150px;
     color:  white;
     padding: 5px;
+}
+
+.comic-strip-legend {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+    border-radius: 3px;
+}
+.comic-strip-legend-text {
+    text-align: center;
 }
 
 
