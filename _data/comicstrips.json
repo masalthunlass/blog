@@ -205,6 +205,16 @@
     "dev_pov": ""
   },
   {
+    "image": "../assets/img/dessin-stories/valider.png",
+    "text": "25",
+    "dev_pov": "Le dev doit s'assurer de la conformité tout au long du processus."
+  },
+  {
+    "image": "../assets/img/dessin-stories/gouter.png",
+    "text": "25",
+    "dev_pov": "Les tests manuels peuvent être très longs. C'est pourquoi la majorité d'entre eux sont automatisés."
+  },
+  {
     "image": "../assets/img/dessin-stories/26-au-four.png",
     "text": "26",
     "dev_pov": "Une fois prêt, le code executable est déployé sur un serveur"

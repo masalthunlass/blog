@@ -226,6 +226,7 @@ a:hover {
 
 .comic-strip-legend {
     display: flex;
+    height: 30px;
     flex-direction: row;
     gap: 2px;
     color: white;
