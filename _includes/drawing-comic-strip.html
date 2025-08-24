@@ -1,0 +1,36 @@
+<div class="comic-strip">
+    {%- for panel in site.data.comicstrips -%}
+
+
+    <div class="comic-strip-panel">
+        {%- if panel.dev_pov != "" -%}
+        <a class="comic-strip-tooltip-link">
+            <div class="comic-strip-tooltip">{{panel.dev_pov}}</div>
+            {%- endif -%}
+            {%- if panel.image != 'none'-%}
+            <img
+                    src="{{ panel.image }}"
+                    alt="{{ panel.text }}"
+                    class="comic-strip-img"/>
+            {% else %}
+            <div class="comic-strip-none">
+                <p class="comic-strip-text">{{ panel.text }}</p>
+            </div>
+            {%- endif -%}
+            {%- if panel.dev_pov != "" -%}
+        </a>
+        {%- endif -%}
+    </div>
+
+    {%- endfor -%}
+
+    <div class="comic-strip-legend">
+        <span class="material-symbols-outlined small-icon">
+emoji_objects
+</span>
+        <span class="comic-strip-legend-text">
+             Découvre le point de vue du dev en survolant les cases
+        </span>
+
+    </div>
+</div>
