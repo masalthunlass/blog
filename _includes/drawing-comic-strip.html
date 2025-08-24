@@ -2,10 +2,17 @@
     {%- for panel in site.data.comicstrips  -%}
 
     <div class="comic-strip-panel">
+
+        {%- if panel.image != 'none'-%}
         <img
              src="{{ panel.image }}"
-             alt="{{ panel.alt }}"
+             alt="{{ panel.text }}"
              class="comic-strip-img"/>
+        {% else %}
+         <div class="comic-strip-none">
+             <p class="comic-strip-text">{{ panel.text }}</p>
+         </div>
+        {%- endif -%}
     </div>
     {%- endfor -%}
 </div>

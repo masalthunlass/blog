@@ -1,202 +1,222 @@
 [
   {
+    "image": "none",
+    "text": "Un client passe commande d'un gâteau pour la date de son anniversaire, le lendemain."
+  },
+  {
     "image": "../assets/img/dessin-stories/33-table.png",
-    "order": "33",
-    "alt": ""
+    "text": "33"
   },
   {
     "image": "../assets/img/dessin-stories/1-commande.png",
-    "order": "1",
-    "alt": ""
+    "text": "1"
+  },
+  {
+    "image": "none",
+    "text": "Le chef nouvellement recruté prend note et découvre son nouveau lieu de travail, la cuisine."
   },
   {
     "image": "../assets/img/dessin-stories/2-chef.png",
-    "order": "2",
-    "alt": ""
+    "text": "2"
   },
   {
     "image": "../assets/img/dessin-stories/3-cuisine.png",
-    "order": "3",
-    "alt": ""
+    "text": "3"
   },
   {
     "image": "../assets/img/dessin-stories/4-ouvrir-tiroir.png",
-    "order": "4",
-    "alt": ""
+    "text": "4"
+  },
+  {
+    "image": "none",
+    "text": "Rapidement, il découvre qu'il a hérité d'une cuisine vétuste et en désordre."
   },
   {
     "image": "../assets/img/dessin-stories/5-tiroir.png",
-    "order": "5",
-    "alt": ""
+    "text": "5"
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "order": "36",
-    "alt": ""
+    "text": "36"
+  },
+  {
+    "image": "none",
+    "text": "Toute recherche d'ustensile est longue et compliquée ! Avec minutie, il doit démêler tout çà."
   },
   {
     "image": "../assets/img/dessin-stories/6-tiroir-vide.png",
-    "order": "6",
-    "alt": ""
+    "text": "6"
   },
   {
     "image": "../assets/img/dessin-stories/7-demeler.png",
-    "order": "7",
-    "alt": ""
+    "text": "7"
   },
   {
     "image": "../assets/img/dessin-stories/8-bol-1.png",
-    "order": "8",
-    "alt": ""
+    "text": "8"
+  },
+  {
+    "image": "none",
+    "text": "De longs efforts ont été nécessaires pour les ustensiles, il est plus que temps de chercher des ingrédients."
   },
   {
     "image": "../assets/img/dessin-stories/9-sucre.png",
-    "order": "9",
-    "alt": ""
+    "text": "9"
   },
   {
     "image": "../assets/img/dessin-stories/10-pas-sucre.png",
-    "order": "10",
-    "alt": ""
+    "text": "10"
+  },
+  {
+    "image": "none",
+    "text": "Du sucre ?...Non, du café !"
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "order": "36",
-    "alt": ""
+    "text": "36"
+  },
+  {
+    "image": "none",
+    "text": "Mais...les étiquettes des bocaux sont incohérentes ! Une vraie source de confusion !"
   },
   {
     "image": "../assets/img/dessin-stories/11-etiquette.png",
-    "order": "11",
-    "alt": ""
+    "text": "11"
   },
   {
     "image": "../assets/img/dessin-stories/12-etiquettes.png",
-    "order": "12",
-    "alt": ""
+    "text": "12"
   },
   {
     "image": "../assets/img/dessin-stories/13-bol.png",
-    "order": "13",
-    "alt": ""
+    "text": "13"
+  },
+  {
+    "image": "none",
+    "text": "Après le re-étiquettage, toujours rien de prêt. Il faut encore mesurer les ingrédients !"
   },
   {
     "image": "../assets/img/dessin-stories/14-main-porte.png",
-    "order": "14",
-    "alt": ""
+    "text": "14"
   },
   {
     "image": "../assets/img/dessin-stories/15-placard.png",
-    "order": "15",
-    "alt": ""
+    "text": "15"
   },
   {
     "image": "../assets/img/dessin-stories/16-balance.png",
-    "order": "16",
-    "alt": ""
+    "text": "16"
   },
   {
     "image": "../assets/img/dessin-stories/17-zero.png",
-    "order": "17",
-    "alt": ""
+    "text": "17"
+  },
+  {
+    "image": "none",
+    "text": "Cette balance ne pèse rien. Pas le temps de la dépanner."
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "order": "36",
-    "alt": ""
+    "text": "36"
   },
   {
     "image": "../assets/img/dessin-stories/18-balance-seule.png",
-    "order": "18",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/19-mesure.png",
-    "order": "19",
-    "alt": ""
+    "text": "18"
   },
   {
     "image": "../assets/img/dessin-stories/20-balance-cassee.png",
-    "order": "20",
-    "alt": ""
+    "text": "20"
   },
   {
-    "image": "../assets/img/dessin-stories/21-mesure-remplie.png",
-    "order": "21",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/22-lis.png",
-    "order": "22",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/23-farine-sel-lait.png",
-    "order": "23",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/24-bol.png",
-    "order": "24",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/25-bol-remplir.png",
-    "order": "25",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/26-au-four.png",
-    "order": "26",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/27-dans-four.png",
-    "order": "27",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/28-pars.png",
-    "order": "28",
-    "alt": ""
-  },
-  {
-    "image": "../assets/img/dessin-stories/29-peur.png",
-    "order": "29",
-    "alt": ""
+    "image": "none",
+    "text": "Celle-ci n'est pas prévue pour un tel poids. Elle explose."
   },
   {
     "image": "../assets/img/dessin-stories/36-etonne.png",
-    "order": "36",
-    "alt": ""
+    "text": "36"
+  },
+  {
+    "image": "../assets/img/dessin-stories/19-mesure.png",
+    "text": "19"
+  },
+  {
+    "image": "../assets/img/dessin-stories/21-mesure-remplie.png",
+    "text": "21"
+  },
+  {
+    "image": "none",
+    "text": "Ce verre-mesure a une signalétique obscure. Que dit la notice ? "
+  },
+  {
+    "image": "../assets/img/dessin-stories/22-lis.png",
+    "text": "22"
+  },
+  {
+    "image": "../assets/img/dessin-stories/23-farine-sel-lait.png",
+    "text": "23"
+  },
+  {
+    "image": "../assets/img/dessin-stories/24-bol.png",
+    "text": "24"
+  },
+  {
+    "image": "../assets/img/dessin-stories/25-bol-remplir.png",
+    "text": "25"
+  },
+  {
+    "image": "../assets/img/dessin-stories/26-au-four.png",
+    "text": "26"
+  },
+  {
+    "image": "../assets/img/dessin-stories/27-dans-four.png",
+    "text": "27"
+  },
+  {
+    "image": "../assets/img/dessin-stories/28-pars.png",
+    "text": "28"
+  },
+  {
+    "image": "../assets/img/dessin-stories/29-peur.png",
+    "text": "29"
+  },
+  {
+    "image": "none",
+    "text": "Enfin au four ! Mais...?!"
+  },
+  {
+    "image": "../assets/img/dessin-stories/36-etonne.png",
+    "text": "36"
+  },
+  {
+    "image": "none",
+    "text": "Le porte ne ferme pas sans une intervention humaine. Le chef la bloque durant toute la cuisson."
   },
   {
     "image": "../assets/img/dessin-stories/30-tiens.png",
-    "order": "30",
-    "alt": ""
+    "text": "30"
   },
   {
     "image": "../assets/img/dessin-stories/31-desespoir.png",
-    "order": "31",
-    "alt": ""
+    "text": "31"
   },
   {
     "image": "../assets/img/dessin-stories/32-gateau.png",
-    "order": "32",
-    "alt": ""
+    "text": "32"
   },
   {
     "image": "../assets/img/dessin-stories/1-commande.png",
-    "order": "1",
-    "alt": ""
+    "text": "1"
+  },
+  {
+    "image": "none",
+    "text": "Retenu par la défaillance du four, le chef n'a plus le temps de terminer la commande. Il faut livrer !"
   },
   {
     "image": "../assets/img/dessin-stories/35-seul-table.png",
-    "order": "35",
-    "alt": ""
+    "text": "35"
   },
   {
     "image": "../assets/img/dessin-stories/34-triste.png",
-    "order": "34",
-    "alt": ""
+    "text": "34"
   }
 ]
