@@ -8,7 +8,7 @@
         "source": "https://martinfowler.com/distributedComputing/refactoring.pdf"
       },
       {
-        "answer": "Ce qui part en production, ce n’est pas la connaissance des experts métier, mais la (mauvaise) compréhension qu’en ont les développeurs. Cette phrase attribué à Alberto Brandolini, rappelle l'importance primordiale de la communication entre les développeurs et les autres métiers qui vont avoir usage du logiciel.",
+        "answer": "Ce qui part en production, ce n’est pas la connaissance des experts métier, mais la (mauvaise) compréhension qu’en ont les développeurs. Cette phrase d'Alberto Brandolini, rappelle l'importance primordiale de la communication entre les développeurs et les autres métiers qui vont avoir usage du logiciel.",
         "source": "https://www.isaqb.org/blog/domain-driven-design-avoiding-misunderstandings-to-protect-your-investment/"
       },
       {
