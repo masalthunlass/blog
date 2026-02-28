@@ -14,6 +14,10 @@
       {
         "answer": "Les devs ont développé de nombreuses pratiques collaboratives comme le pair programming",
         "source": "https://martinfowler.com/articles/on-pair-programming.html"
+      },
+      {
+        "answer": "Concevoir un logiciel c'est comme écrire un même livre à plusieurs auteurs. Les devs doivent s'entendre sur les orientations de design et réconcilier leurs versions avec des outils de versionnage.",
+        "source": "https://les-enovateurs.com/gitflow-workflow-git-incontournableprojets-de-qualite"
       }
     ]
   },
