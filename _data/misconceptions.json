@@ -104,5 +104,16 @@
         "source": "https://www.martinfowler.com/articles/is-quality-worth-cost.html#AtFirstGlanceInternalQualityDoesNotMatterToCustomers\n"
       }
     ]
+  },
+  {
+    "said_by": "un-e collaborateur-rice",
+    "sentence": "On n'arrête pas de changer d'avis, on peut pas coder que quand on est sûrs de ce qu'on veut ?",
+    "counterarguments": [
+      {
+        "answer": "Tout change dans le domaine des logiciels. Les exigences changent. La conception change. L'activité change. La technologie change. L'équipe change. Les membres de l'équipe changent. Le problème n'est pas le changement, car le changement est inévitable ; le problème réside plutôt dans notre incapacité à faire face au changement. Cette citation de Kent Beck rappelle pourquoi les méthodologies de conception logicielles s'orientent vers l'agilité et la gestion de l'incertitude du besoin. ",
+        "source": "https://www.youtube.com/watch?v=Y09iSgTfq5s"
+      }
+
+    ]
   }
 ]
