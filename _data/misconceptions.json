@@ -1,5 +1,27 @@
 [
   {
+    "said_by": "un-e non-dev",
+    "sentence": "Un-e dev code seul-e dans son garage",
+    "counterarguments": [
+      {
+        "answer": "N’importe quel imbécile peut écrire du code qu’un ordinateur peut comprendre. Les bons programmeurs écrivent du code que les humains peuvent comprendre. Cette citation de Martin Fowler nous rapelle le besoin primordial pour la bonne santé du logiciel d'écrire du code lisible par les autres.",
+        "source": "https://martinfowler.com/distributedComputing/refactoring.pdf"
+      },
+      {
+        "answer": "Ce qui part en production, ce n’est pas la connaissance des experts métier, mais la (mauvaise) compréhension qu’en ont les développeurs. Cette phrase d'Alberto Brandolini, rappelle l'importance primordiale de la communication entre les développeurs et les autres métiers qui vont avoir usage du logiciel.",
+        "source": "https://www.isaqb.org/blog/domain-driven-design-avoiding-misunderstandings-to-protect-your-investment/"
+      },
+      {
+        "answer": "Les devs ont développé de nombreuses pratiques collaboratives comme le pair programming",
+        "source": "https://martinfowler.com/articles/on-pair-programming.html"
+      },
+      {
+        "answer": "Concevoir un logiciel c'est comme écrire un même livre à plusieurs auteurs. Les devs doivent s'entendre sur les orientations de design et réconcilier leurs versions avec des outils de versionnage.",
+        "source": "https://les-enovateurs.com/gitflow-workflow-git-incontournableprojets-de-qualite"
+      }
+    ]
+  },
+  {
     "sentence": "C'est juste un bouton !",
     "said_by": "un-e fonctionnel-le",
     "counterarguments": [
