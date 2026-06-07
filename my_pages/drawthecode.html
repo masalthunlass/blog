@@ -2,36 +2,36 @@
 layout: base
 permalink: /drawthecode/
 ---
-<h2 class="post-list-heading">Dessiner le code</h2>
-<h3 class="post-list-subheading">
+<h2 class="post-list-heading" role="heading" aria-level="1" tabindex="0">Dessiner le code</h2>
+<h3 class="post-list-subheading" tabindex="0">
     Cette page est dédiée à rendre compte d'expérimentations
     ayant pour objectif <br/> de matérialiser le métier du développement logiciel, la programmation et ses concepts
 </h3>
-<div class="post-article">
+<session class="post-article" >
 
     <div class="post-article-content">
-        <div class="post-article-title">Jeu  dessiner/deviner</div>
-        <div class="post-article-subtitle">Un joueur pioche un papier sur lequel est noté un concept en lien
+        <div class="post-article-title"  role="heading" aria-level="2" tabindex="0">Jeu  dessiner/deviner</div>
+        <div class="post-article-subtitle" tabindex="0">Un joueur pioche un papier sur lequel est noté un concept en lien
             avec la conception logicielle et doit l'exprimer en dessin afin que les autres joueurs le devinent.
         </div>
     </div>
-    <div class="post-article-diapo">
+    <div class="post-article-diapo" role="img" aria-label="diapositive des dessins">
         {%- include drawing-slides.html -%}
     </div>
-</div>
-<div class="post-article">
+</session>
+<session class="post-article">
 
     <div class="post-article-content">
-        <div class="post-article-title">Vulgarisation</div>
-        <div class="post-article-subtitle">
+        <div class="post-article-title"  role="heading" aria-level="2" tabindex="0">Vulgarisation</div>
+        <div class="post-article-subtitle"  tabindex="0">
             Que font les développeurs de leur journée ?
             Les expérimentations suivantes tentent d'expliquer le métier au grand public.
         </div>
     </div>
 
-    <div class="post-article-strip">
-        <h3 class="post-article-strip-heading">Les impacts de la mauvaise qualité de code</h3>
-        <div class="post-article-strip-legend">
+    <div class="post-article-strip" >
+        <h3 class="post-article-strip-heading" tabindex="0">Les impacts de la mauvaise qualité de code</h3>
+        <div class="post-article-strip-legend" tabindex="0">
             Lorsqu'on hérite d'une base de code de mauvaise qualité,
             toute production de nouvelle fonctionnalité se retrouve compliquée.
             Les délais s'allongent. Pire, le rendu final n'est même pas à la hauteur des attentes.
@@ -43,4 +43,4 @@ permalink: /drawthecode/
         {%- include drawing-comic-strip.html -%}
     </div>
 
-</div>
+</session>

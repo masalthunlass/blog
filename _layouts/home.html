@@ -4,7 +4,7 @@ layout: base
 
 <div class="home">
     {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading" tabindex="0">{{ page.title }}</h1>
     {%- endif -%}
 
     {{ content }}
@@ -18,13 +18,13 @@ layout: base
 
     {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    <h2 class="post-list-heading" tabindex="0">{{ page.list_title }}</h2>
     {%- endif -%}
 
     <ul class="post-list">
         {%- for post in posts -%}
         <li>
-            <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+            <span class="post-meta" aria-roledescription="date" tabindex="0" aria-label="{{ post.date | date: site.date_format }}">{{ post.date | date: site.date_format }}</span>
             <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
@@ -38,7 +38,7 @@ layout: base
     </ul>
 
     {% if site.paginate %}
-    <div class="pager">
+    <div class="pager" >
         <ul class="pagination">
             {%- if paginator.previous_page %}
             <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>

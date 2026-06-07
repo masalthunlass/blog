@@ -1,22 +1,27 @@
 [
   {
     "permalink": "/",
-    "icon": "article"
+    "icon": "article",
+    "label": "liste des articles"
   },
   {
     "permalink": "/recommendations/",
-    "icon": "local_library"
+    "icon": "local_library",
+    "label": "recommandations de lecture"
   },
   {
     "permalink": "/misconceptions/",
-    "icon": "sentiment_stressed"
+    "icon": "sentiment_stressed",
+    "label": "idées reçues"
   },
   {
     "permalink": "/drawthecode/",
-    "icon": "draw"
+    "icon": "draw",
+    "label": "dessiner le code"
   },
   {
     "permalink": "/about/",
-    "icon": "data_loss_prevention"
+    "icon": "data_loss_prevention",
+    "label": "à propos"
   }
 ]
