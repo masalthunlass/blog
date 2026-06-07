@@ -5,12 +5,14 @@ layout: base
 
     <header class="post-header">
 
-        <h1 class="post-title p-name" itemprop="name headline">
+        <h1 class="post-title p-name" itemprop="name headline" tabindex="0">
 
             {{ page.title | escape }}
         </h1>
-        <p class="post-meta">
-            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <p class="post-meta" >
+            <time aria-roledescription="date"
+                  aria-label=" {{ page.date | date: site.date_format }}"
+                  tabindex="0" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 {{ page.date | date: site.date_format }}
             </time>
             {%- if page.modified_date -%}
@@ -23,13 +25,17 @@ layout: base
             {%- if page.author -%}
             • {% for author in page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            <span  tabindex="0"
+                   class="p-author h-card" itemprop="name"
+                  aria-roledescription="author names"
+                  aria-label=" {{ author }}"
+            >{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
             {%- endif -%}</p>
     </header>
 
-    <div class="post-content e-content" itemprop="articleBody">
+    <div class="post-content e-content" itemprop="articleBody" tabindex="0" role="article" aria-live="polite">
         {{ content }}
     </div>
 

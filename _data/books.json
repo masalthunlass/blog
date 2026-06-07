@@ -2,54 +2,62 @@
   {
     "authors": ["Felienne Hermans"],
     "title": "The Programmer's Brain: what every programmer needs to know about cognition",
+    "lang": "en",
     "abstract": "Une professeure en informatique, titulaire d'un doctorat, créatrice du language Hedy pour l'enseignement de la programmation, rend compte des recherches cognitives concernant la lisibilité et la compréhension du code par les développeurs."
   },
   {
-    "authors": ["Cyrille Martraire", "Arnaud Thiéfaine", "Dorra Brataguiz", "Fabien Hiegel", "Houssam Fakih"],
+    "authors": ["Cyrille Martraire", "Arnaud Thiéfaine", "Dorra Bartaguiz", "Fabien Hiegel", "Houssam Fakih"],
     "title": "Software Craft",
+    "lang": "en",
     "abstract": "Un résumé des fondamentaux du software craftsmanship en langue française par des professionnels enthousiastes de sa communauté."
   },
   {
     "authors": ["Kent Beck"],
     "title": "Tidy First?: a personal exercise in empirical software",
+    "lang": "en",
     "abstract": "Le créateur de l'extreme programming et pionnier des design patterns, partage sa vision et son approche du changement dans le code."
   },
   {
     "authors": ["Isabelle Collet"],
     "title": "Les oubliées du numérique",
+    "lang": "fr",
     "abstract": "Une chercheuse et informaticienne s'interroge sur les raisons du faible nombre de femmes dans  le champ de l'informatique et sur les solutions permettant d'y remédier."
   },
   {
     "authors": ["David Thomas, Andrew Hunt"],
     "title": "The Pragmatic Programmer: Your Journey to Mastery",
+    "lang": "en",
     "abstract": "Deux programmeurs, initiateurs du Manifeste Agile, expliquent en quoi une approche pragmatique du developpement logiciel peut être efficace."
   }
 ,
   {
     "authors": ["Martin Fowler"],
     "title": "Refactoring",
+    "lang": "en",
     "abstract": "Un programmeur, initiateur du Manifeste Agile, liste les principes et les bonnes pratiques du refactoring de code."
   },
   {
     "authors": ["Jacqui Read"],
     "title": "Communication Patterns: A guide for developers and architects",
+    "lang": "en",
     "abstract": "Une architecte propose ses solutions pour une communication orale, écrite, visuelle ou encore à distance efficace dans les équipes de développement logiciel."
   },
   {
     "authors": ["Cyrille Martraire"],
     "title": "Living Documentation: Continuous Knowledge Sharing by Design",
+    "lang": "en",
     "abstract": "Le CTO d'Arolla, spécialiste du DDD et du craft, développe l'idée de documenter automatiquement le code."
   },
   {
     "authors": ["Adam Thornhill"],
     "title": "Your Code as a Crime Scene",
+    "lang": "en",
     "abstract": "Diplômé de psychologie et d'ingénierie, le créateur de l'outil CodeScene, donne ses techniques d'analyse automatique de la qualité du code inspirées de la forensique. "
   },
   {
     "authors": ["Dan Bergh Johnson, Daniel Deogun, Daniel Sawano"],
     "title": "Secure by design",
+    "lang": "en",
     "abstract": "Des développeurs et spécialistes de cyber sécurité argumentent que la sécurité n'est pas une option mais une préoccupation de chaque instant. Ils proposent d'apporter la sécurité par une attention au design  et non par une expertise dans ce domaine. "
-
-
   }
 ]

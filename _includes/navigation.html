@@ -2,11 +2,11 @@
 
 {%- if page.permalink != item.permalink  -%}
 <a href="{{ item.permalink | relative_url}}" class="page-link" >
-    <span class="material-symbols-outlined large-icon">  {{  item.icon }}</span>
+    <nav class="material-symbols-outlined large-icon" title="{{item.label}}">  {{  item.icon }}</nav>
 </a>
 {%- else -%}
 <a href="{{ item.permalink | relative_url}}" class="page-link visited" disabled >
-    <span class="material-symbols-outlined large-icon">  {{  item.icon }}</span>
+    <nav role="navigation" class="material-symbols-outlined large-icon" title="{{item.label}}">  {{  item.icon }}</nav>
 </a>
 {%- endif -%}
 {%- endfor -%}

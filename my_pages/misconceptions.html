@@ -2,15 +2,15 @@
 layout: base
 permalink: /misconceptions/
 ---
-<h2 class="post-list-heading">Idées reçues</h2>
+<h2 class="post-list-heading" role="heading" aria-level="1" tabindex="0">Idées reçues</h2>
 
-<h3 class="post-list-subheading">
+<h3 class="post-list-subheading" tabindex="0">
     Ces phrases, mes collègues et moi, nous les avons entendues à propos de notre métier. <br/>
     Voilà une occasion d'expliquer en quoi il s'agit de fausses conceptions.
-    <div class="post-legend">
-        <span class="legend-item"> <span class="material-symbols-outlined small-icon">  network_ping </span>  fausse idée</span>
-        <span class="legend-item"> <span
-                class="material-symbols-outlined small-icon">  quick_phrases </span>  réponse</span>
+    <div class="post-legend" aria-hidden="true">
+        <span class="legend-item" aria-hidden="true"> <span class="material-symbols-outlined small-icon" role="img" title="fausse idée" aria-hidden="true">  network_ping </span>  fausse idée</span>
+        <span class="legend-item" aria-hidden="true"> <span
+                class="material-symbols-outlined small-icon" role="img" title="réponse" aria-hidden="true">  quick_phrases </span>  réponse</span>
     </div>
 </h3>
 
@@ -18,15 +18,15 @@ permalink: /misconceptions/
 <ul class="post-list">
     {%- for misconception in site.data.misconceptions -%}
     <li>
-        <span class="post-meta">{{ misconception.said_by }} :</span>
-        <h3 class="post-link">
-            <span class="material-symbols-outlined large-icon">  network_ping </span>
-            "{{ misconception.sentence }}"</h3>
-        <div class="post-abstract flux-lines">
-            <span class="material-symbols-outlined large-icon">  quick_phrases </span>
+        <span class="post-meta" tabindex="0" aria-label="{{ misconception.said_by }}">{{ misconception.said_by }} :</span>
+        <h3 class="post-link" aria-label="fausse idée"  tabindex="0">
+            <span class="material-symbols-outlined large-icon" role="img" title="fausse idée"   tabindex="1">  network_ping </span>
+          <span tabindex="1"> "{{ misconception.sentence }}"</span> </h3>
+        <div class="post-abstract flux-lines" tabindex="0" aria-label="réponse">
+            <span class="material-symbols-outlined large-icon" role="img" title="réponse" tabindex="1">  quick_phrases </span>
             <div class="flux-columns">
             {%- for item in misconception.counterarguments -%}
-            <a href="{{ item.source | escape }}" target="_blank">"{{ item.answer }}"</a>
+            <a href="{{ item.source | escape }}" target="_blank" tabindex="1">"{{ item.answer }}"</a>
             {%- endfor -%}
              </div>
         </div>
